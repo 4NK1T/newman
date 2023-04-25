@@ -3,7 +3,7 @@ import re
 from bs4 import BeautifulSoup
 
 # List of parameters to replace
-parameters = ["username", "password", "accessToken", "id", "email", "pan", "epicNumber", "url", "address", "number", "beneficiaryAccount", "beneficiaryMobile", "beneficiaryName", "bankRRN", "accountHolder", "accountNo", "customerPhoneNo", "crnNo", "panNumber", "nameOfAssessee", "mrzFirstLine", "mrzSecondLine", "registrationNumber", "assesseeCode", "uid", "fatherName", "dob"]
+parameters = ["username", "password", "id", "email", "url", "address", "number", "dob"]
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Redact sensitive information in an HTML report')
